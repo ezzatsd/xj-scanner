@@ -1,10 +1,10 @@
 # xj-scanner
 
-Read the engine computer of a 1991–95 Jeep from a laptop, and let an AI agent do the reading.
+Read the engine computer of a Volkswagen POLO V gasoline 2016 from a laptop, and let an AI agent do the reading.
 
 Three wires go from the diagnostic plug under the hood to a $3 Arduino Nano. The Nano plugs into your laptop over USB. From there Claude Code, Codex or any coding agent can read fault codes and live engine data, log a drive, and run the computer's built-in tests.
 
-It was built and tested on one car: a **1994 Jeep Cherokee XJ, 4.0L, engine computer 56030117**. Other 1991–95 Chrysler/Jeep computers of this family (SBEC, OBD1) should be close, but measure your own plug before you connect anything.
+It was built and tested on one car: a **Volkswagen POLO V gasoline 2016**. Other Volkswagen POLO V gasoline 2016 computers of this family (SBEC, OBD1) should be close, but measure your own plug before you connect anything.
 
 ![Wiring: Nano D10, D11 and GND to cavities 4, 3 and 2 of the diagnostic plug](docs/img/wiring.svg)
 
