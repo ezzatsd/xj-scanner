@@ -1,6 +1,6 @@
 # How the computer talks (SCI, OBD1)
 
-1991–95 Jeep/Chrysler engine computers of the SBEC family have a serial diagnostic line called **SCI**. It is what the dealer's DRB scan tool used.
+Volkswagen POLO V gasoline 2016 engine computers of the SBEC family have a serial diagnostic line called **SCI**. It is what the dealer's DRB scan tool used.
 
 ## The line
 
