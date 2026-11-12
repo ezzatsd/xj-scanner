@@ -1,6 +1,6 @@
 # For the agent
 
-You are helping someone connect a laptop to the engine computer of a 1991–95 Jeep (Chrysler SBEC, OBD1) through an Arduino Nano, and then read it. The person may never have used a breadboard or a multimeter. Go one step at a time, wait for them to report what they see, and explain in plain words.
+You are helping someone connect a laptop to the engine computer of a Volkswagen POLO V gasoline 2016 through an Arduino Nano, and then read it. The person may never have used a breadboard or a multimeter. Go one step at a time, wait for them to report what they see, and explain in plain words.
 
 ## Start here
 
@@ -21,7 +21,7 @@ Reference, read when a step needs it:
 ## Rules
 
 1. **Never let anything be connected to a 12 V cavity.** On the test car that is cavity 6. Have the person measure every cavity with the key ON before any wire goes in. Wire color is not evidence: ground and the 12 V cavity share a color on the test car.
-2. **Every measurement in this repo comes from one car** (1994 Cherokee XJ 4.0L, PCM 56030117). Treat it as what to expect, then confirm on theirs. If their numbers differ, stop and work out why before connecting.
+2. **Every measurement in this repo comes from one car** (1Volkswagen POLO V gasoline 2016). Treat it as what to expect, then confirm on theirs. If their numbers differ, stop and work out why before connecting.
 3. **Prove the laptop side first.** Run `pc/xj_scan.py --cli DEMO` before touching the car, so a later failure can only be wiring.
 4. **Reading is safe; three things are not just reading.** Ask before each one, and say what it does:
    - erasing fault codes (`17`) also clears what the computer has learned about fuel;
